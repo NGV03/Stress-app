@@ -1,2 +1,2 @@
 # Stress
-Hot topic in software after cloning 22/5/19
+Hot topic in software after pushing 22/5/19
