@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d8f83b-75f9-470d-b27d-d822bb2b63ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/Splash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/mytransition.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="-6">
+              <caret line="371" column="44" selection-start-line="371" selection-start-column="44" selection-end-line="371" selection-end-column="44" />
               <folding>
                 <element signature="e#2450#2676#0" expanded="true" />
                 <element signature="e#2675#2676#0" expanded="true" />
@@ -75,10 +66,10 @@
                 <element signature="e#5557#5558#0" expanded="true" />
                 <element signature="e#7897#8097#0" expanded="true" />
                 <element signature="e#8096#8097#0" expanded="true" />
-                <element signature="e#13676#13907#0" expanded="true" />
-                <element signature="e#13906#13907#0" expanded="true" />
-                <element signature="e#13928#14168#0" expanded="true" />
-                <element signature="e#14167#14168#0" expanded="true" />
+                <element signature="e#12912#13304#0" expanded="true" />
+                <element signature="e#13303#13304#0" expanded="true" />
+                <element signature="e#13353#13593#0" expanded="true" />
+                <element signature="e#13592#13593#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,12 +84,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="420">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -144,12 +135,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/images.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/background_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/mytransition.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/Splash.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -378,7 +369,7 @@
       <window_info anchor="bottom" id="Build" order="4" weight="0.32729805" />
       <window_info anchor="bottom" id="Android Profiler" order="5" />
       <window_info anchor="bottom" id="Logcat" order="6" />
-      <window_info anchor="right" id="Preview" visible="true" weight="0.23149492" />
+      <window_info anchor="right" id="Preview" weight="0.23149492" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -440,10 +431,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="-6">
+          <caret line="371" column="44" selection-start-line="371" selection-start-column="44" selection-end-line="371" selection-end-column="44" />
           <folding>
             <element signature="e#2450#2676#0" expanded="true" />
             <element signature="e#2675#2676#0" expanded="true" />
@@ -471,26 +477,11 @@
             <element signature="e#5557#5558#0" expanded="true" />
             <element signature="e#7897#8097#0" expanded="true" />
             <element signature="e#8096#8097#0" expanded="true" />
-            <element signature="e#13676#13907#0" expanded="true" />
-            <element signature="e#13906#13907#0" expanded="true" />
-            <element signature="e#13928#14168#0" expanded="true" />
-            <element signature="e#14167#14168#0" expanded="true" />
+            <element signature="e#12912#13304#0" expanded="true" />
+            <element signature="e#13303#13304#0" expanded="true" />
+            <element signature="e#13353#13593#0" expanded="true" />
+            <element signature="e#13592#13593#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>

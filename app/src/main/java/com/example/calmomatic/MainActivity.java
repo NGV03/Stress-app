@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tv_p1 = (TextView) findViewById(R.id.tv_p1);
-        tv_p2 = (TextView) findViewById(R.id.tv_p2);
 
         iv_11 = (ImageView) findViewById(R.id.iv_11);
         iv_12 = (ImageView) findViewById(R.id.iv_12);
@@ -75,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
         //shuffle the images
         Collections.shuffle(Arrays.asList(cardsArray));
 
-        //changing the color of second player inactive
-        tv_p2.setTextColor(Color.GRAY);
+
 
         iv_11.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -322,14 +319,7 @@ public class MainActivity extends AppCompatActivity {
                 iv_34.setVisibility(View.INVISIBLE);
             }
 
-            //add points to the correct player
-            if(turn == 1){
-              playerPoints++;
-              tv_p1.setText("P1:"+ playerPoints);
-            }else if(turn == 2){
-                cpuPoints++;
-                tv_p2.setText("P2:"+ cpuPoints);
-            }
+
         }else{
             iv_11.setImageResource(R.drawable.back);
             iv_12.setImageResource(R.drawable.back);
@@ -344,16 +334,7 @@ public class MainActivity extends AppCompatActivity {
             iv_33.setImageResource(R.drawable.back);
             iv_34.setImageResource(R.drawable.back);
 
-            //change the player turn
-            if(turn == 1){
-                turn = 2;
-                tv_p1.setTextColor(Color.GRAY);
-                tv_p2.setTextColor(Color.BLACK);
-            } else if(turn == 2){
-                turn = 1;
-                tv_p1.setTextColor(Color.BLACK);
-                tv_p2.setTextColor(Color.GRAY);
-            }
+
 
         }
         iv_11.setEnabled(true);
@@ -388,7 +369,7 @@ public class MainActivity extends AppCompatActivity {
 
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(MainActivity.this);
             alertDialogueBuilder
-                    .setMessage("GAME OVER!\nP1: " + playerPoints+  "\nP2: "+ cpuPoints)
+                    .setMessage("GAME OVER!")
                     .setCancelable(false)
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
