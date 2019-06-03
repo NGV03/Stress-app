@@ -24,7 +24,7 @@ private ImageView iv;
         tv.startAnimation(myanim);
         iv.startAnimation(myanim);
 
-        final Intent i = new Intent(this,MainActivity.class);
+        final Intent i = new Intent(this,Home.class);
         Thread timer = new Thread(){
             public void run(){
                 try{
