@@ -18,7 +18,7 @@ public class Home extends AppCompatActivity {
         if(view.getId() == R.id.card2)
         {
             //When user clicks intermediate card, launch new screen
-            Intent intent = new Intent(Home.this, MainActivity.class);
+            Intent intent = new Intent(Home.this, intermediateLevel.class);
             startActivity(intent);
         }
     }

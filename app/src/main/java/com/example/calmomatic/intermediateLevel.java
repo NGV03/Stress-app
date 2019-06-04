@@ -2,7 +2,6 @@ package com.example.calmomatic;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +13,7 @@ import android.widget.TextView;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class MainActivity extends AppCompatActivity {
+public class intermediateLevel extends AppCompatActivity {
 
     private static int SPLASH_TIMEOUT = 4000;
 
@@ -367,14 +366,14 @@ public class MainActivity extends AppCompatActivity {
                 iv_33.getVisibility() == View.INVISIBLE &&
                 iv_34.getVisibility() == View.INVISIBLE){
 
-            AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(MainActivity.this);
+            AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(intermediateLevel.this);
             alertDialogueBuilder
                     .setMessage("GAME OVER!")
                     .setCancelable(false)
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), intermediateLevel.class);
                             startActivity(intent);
                             finish();
                         }

@@ -44,7 +44,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="6dp"
-                android:layout_margin="12dp">
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:orientation="vertical"
