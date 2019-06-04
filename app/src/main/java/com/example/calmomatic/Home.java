@@ -13,6 +13,14 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
     }
+    public void cardOne(View view) {
+        if(view.getId() == R.id.card1)
+        {
+            //When user clicks beginner card, launch new screen
+            Intent intent = new Intent(Home.this, basicLevel.class);
+            startActivity(intent);
+        }
+    }
 
     public void cardTwo(View view) {
         if(view.getId() == R.id.card2)
@@ -22,4 +30,6 @@ public class Home extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+
 }

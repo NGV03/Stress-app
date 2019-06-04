@@ -17,8 +17,6 @@ public class intermediateLevel extends AppCompatActivity {
 
     private static int SPLASH_TIMEOUT = 4000;
 
-    TextView tv_p1, tv_p2;
-
     ImageView iv_11, iv_12, iv_13, iv_14,iv_21, iv_22, iv_23, iv_24,iv_31, iv_32, iv_33, iv_34;
 
     //array for the images
@@ -31,13 +29,11 @@ public class intermediateLevel extends AppCompatActivity {
     int firstCard, secondCard;
     int clickedFirst, clickedSecond;
     int cardNumber = 1;
-    int turn = 1;
-    int playerPoints = 0, cpuPoints = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_intermediate);
 
 
         iv_11 = (ImageView) findViewById(R.id.iv_11);
