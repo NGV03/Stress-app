@@ -32,4 +32,12 @@ public class Home extends AppCompatActivity {
     }
 
 
+    public void cardThree(View view) {
+        if(view.getId() == R.id.card3)
+        {
+            //When user clicks intermediate card, launch new screen
+            Intent intent = new Intent(Home.this, advancedLevel.class);
+            startActivity(intent);
+        }
+    }
 }
