@@ -8,21 +8,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
 import java.util.Arrays;
 import java.util.Collections;
 
 public class advancedLevel extends AppCompatActivity {
+    private static int SPLASH_TIMEOUT = 4000;
 
-    ImageView iv_11, iv_12, iv_13, iv_14,iv_21, iv_22, iv_23, iv_24,iv_31, iv_32, iv_33, iv_34,iv_41, iv_42, iv_43, iv_44;
+    ImageView iv_11, iv_12, iv_13, iv_14,iv_21, iv_22, iv_23, iv_24,
+                 iv_31, iv_32, iv_33, iv_34,iv_41, iv_42, iv_43, iv_44;
 
     //array for the images
-    Integer[] cardsArray = {101, 102, 103, 104, 105, 106, 107, 108, 201, 202, 203, 204, 205, 206, 207, 208};
+    Integer[] cardsArray = {101, 102, 103, 104, 105, 106, 107, 108,
+                                201, 202, 203, 204, 205, 206, 207, 208};
 
     //actual images
     int image101, image102, image103, image104, image105, image106,image107, image108,
             image201, image202, image203, image204, image205, image206, image207, image208;
-
 
     int firstCard, secondCard;
     int clickedFirst, clickedSecond;
@@ -30,7 +31,7 @@ public class advancedLevel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_advanced_level);
+        setContentView(R.layout.activity_advanced_two);
 
         iv_11 = (ImageView) findViewById(R.id.iv_11);
         iv_12 = (ImageView) findViewById(R.id.iv_12);
@@ -71,8 +72,6 @@ public class advancedLevel extends AppCompatActivity {
 
         //shuffle the images
         Collections.shuffle(Arrays.asList(cardsArray));
-
-
 
         iv_11.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -373,17 +372,17 @@ public class advancedLevel extends AppCompatActivity {
             else if(clickedSecond == 11){
                 iv_34.setVisibility(View.INVISIBLE);
             }
-            else if(clickedFirst == 12){
+            else if(clickedSecond == 12){
                 iv_41.setVisibility(View.INVISIBLE);
             }
-            else if(clickedFirst == 13){
+            else if(clickedSecond == 13){
                 iv_42.setVisibility(View.INVISIBLE);
             }
-            else if(clickedFirst == 14){
+            else if(clickedSecond == 14){
                 iv_43.setVisibility(View.INVISIBLE);
             }
-            else if(clickedFirst == 15){
-                iv_44.setVisibility(View.INVISIBLE);
+            else if(clickedSecond == 15){
+                iv_44.setVisibility(View.VISIBLE);
             }
 
 
