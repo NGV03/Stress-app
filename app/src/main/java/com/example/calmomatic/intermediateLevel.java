@@ -367,7 +367,7 @@ public class intermediateLevel extends AppCompatActivity {
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent intent = new Intent(getApplicationContext(), intermediateLevel.class);
+                            Intent intent = new Intent(getApplicationContext(), advancedLevel.class);
                             startActivity(intent);
                             finish();
                         }

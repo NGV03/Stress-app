@@ -255,7 +255,16 @@ public class basicLevel extends AppCompatActivity {
                 iv_23.getVisibility() == View.INVISIBLE &&
                 iv_24.getVisibility() == View.INVISIBLE){
 
+            //display random quote after game finishes
+            /*final String[] quotes = {"Quote 1","Quote 2","Quote 3","Quote 4"};
+            int rando = (int) (Math.random()*4);
+
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(basicLevel.this);
+            alertDialogueBuilder.setMessage(rando);
+            AlertDialog alert = alertDialogueBuilder.create();
+            alertDialogueBuilder.show();*/
+
+           /* AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(basicLevel.this);
             alertDialogueBuilder
                     .setMessage("GAME OVER!")
                     .setCancelable(false)
@@ -275,7 +284,7 @@ public class basicLevel extends AppCompatActivity {
                     });
 
             AlertDialog alertDialogue = alertDialogueBuilder.create();
-            alertDialogue.show();
+            alertDialogue.show(); */
 
         }
 
