@@ -44,7 +44,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="6dp"
-                android:layout_margin="20dp"
+                android:layout_margin="12dp"
                 android:clickable="true"
                 android:id="@+id/card1"
                 android:onClick="cardOne">
