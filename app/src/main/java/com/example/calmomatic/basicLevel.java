@@ -1,16 +1,21 @@
 package com.example.calmomatic;
 
+import android.app.Notification;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Handler;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public class basicLevel extends AppCompatActivity {
     ImageView iv_11, iv_12, iv_13, iv_14,iv_21, iv_22, iv_23, iv_24;
@@ -256,17 +261,46 @@ public class basicLevel extends AppCompatActivity {
                 iv_24.getVisibility() == View.INVISIBLE){
 
             //display random quote after game finishes
-            /*final String[] quotes = {"Quote 1","Quote 2","Quote 3","Quote 4"};
-            int rando = (int) (Math.random()*4);
+           final String[] quoteArray =
+                   {"Give your stress wings and let it fly away ~ Terri Guillemets",
+                   "It’s not the load that breaks you down, it’s the way you carry it ~ Lou Holtz",
+                   "You are braver than you believe, stronger than you seem and smarter than you think! ~ Christopher Robin",
+                   "Don’t stress the could haves, if it should have, i would have. ~ Unknown",
+                    "For fast-acting relief, try slowing down. ~ Lily Tomlin",
+                   "The comeback is always stronger than the setback ~ Dr. Jill Murray",
+                   "Grow through what you go through ~ Tyrese Gibson",
+                   "Was it a bad day? Or was it a bad five minutes that you milked all day? ~Unknown",
+                   "A smooth sea never made a skilled sailor ~ Franklin D. Roosevelt",
+                   "We may encounter many defeats but we must not be defeated. ~ Maya Angelou",
+                   "Do something today that your future self will thank you for. ~Sean Patrick Flanery",
+                   "Say No to the demands of the world. Say Yes to the longing of your own heart. ~Johnathan Lockwood Huie ",
+                   "Tension is who you think you should be. Relaxation is who you are. ~Chinese Proverbs",
+                   "Why feel blue when there’s so many other colors you can feel. ~ Karen Salmansohn",
+                   "Stressed spelled backwards is desserts. ~Loretta Laroche",
+                   "Difficult roads often lead to beautiful destinations. The best is yet to come. ~ Zig Ziglar",
+                   "Just when the caterpillar thought the world was ending, he turned into a butterfly. ~ Proverbs",
+                   "The greatest weapon against stress is our ability to choose one thought over another. ~ William James",
+                   "Rule number one is, don’t sweat the small stuff. Rule number two is, it’s all small stuff. ~Robert Elliot",
+                   "If stress burned calories, I’d be a supermodel. - Unknown",
+                   "Dear Stress, let’s break up. ~Dr. Christina Hebbert",
+                   "Be with those who bring out the best in you, not the stress in you. ~Unknown",
+                   "Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming. ~Thich Nhat Hanh",
+                   "Keep walking through the storm. Your rainbow is waiting on the other side. ~Heather Stillufsen ",
+                   "Do not rent out your brain to stress and fear, they do not pay. ~Rajesh Walecha",
+                   "The struggle you’re in today is developing the strength you need for tomorrow. ~Robert Tew",
+                   "Good things take time ~John Wooden",
+                   "Stop focusing on how stressed you are and remember how blessed you are. ~ Anonymous."
+                   };
+
+            String randomValue = quoteArray[(int) Math.floor(Math.random() * quoteArray.length)];
+          //  System.out.println(randomValue);
+
+
+
 
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(basicLevel.this);
-            alertDialogueBuilder.setMessage(rando);
-            AlertDialog alert = alertDialogueBuilder.create();
-            alertDialogueBuilder.show();*/
-
-           /* AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(basicLevel.this);
             alertDialogueBuilder
-                    .setMessage("GAME OVER!")
+                    .setMessage(randomValue)
                     .setCancelable(false)
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
@@ -284,9 +318,10 @@ public class basicLevel extends AppCompatActivity {
                     });
 
             AlertDialog alertDialogue = alertDialogueBuilder.create();
-            alertDialogue.show(); */
+            alertDialogue.show();
 
         }
+
 
     }
 
