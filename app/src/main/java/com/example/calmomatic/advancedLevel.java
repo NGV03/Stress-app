@@ -382,7 +382,7 @@ public class advancedLevel extends AppCompatActivity {
                 iv_43.setVisibility(View.INVISIBLE);
             }
             else if(clickedSecond == 15){
-                iv_44.setVisibility(View.VISIBLE);
+                iv_44.setVisibility(View.INVISIBLE);
             }
 
 
@@ -445,9 +445,46 @@ public class advancedLevel extends AppCompatActivity {
                 iv_43.getVisibility() == View.INVISIBLE &&
                 iv_44.getVisibility() == View.INVISIBLE){
 
+
+            //display random quote after game finishes
+            final String[] quoteArray =
+                    {
+                      "Don’t Let Yesterday Take Up Too Much Of Today. – Will Rogers",
+                        "You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character. – Unknown",
+                        "If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You. – Steve Jobs",
+                        "Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough. – Og Mandino",
+                        "Your mind will answer most questions if you learn to relax and wait for the answer. –William Burroughs",
+                        "Life isn’t as serious as the mind makes it out to be. –Eckhart Tolle",
+                        "Give your stress wings and let if fly away. –Terri Guillemets",
+                        "There is more to life than increasing its speed. –Mohandas Gandhi",
+                        "Sometimes the most productive thing you can do is relax. –Mark Black",
+                        "You don’t always need a plan.  Sometimes you just need to breathe, trust, let go and see what happens. –Mandy Hale",
+                        "Nothing can bring you peace but yourself. –Ralph Waldo Emerson",
+                        "Your calm mind is the ultimate weapon against your challenges.  So relax. –Bryant McGill",
+                        "Slow down and everything you are chasing will come around and catch you. –John De Paola",
+                        "The time to relax is when you don’t have time for it. –Sydney Harris",
+                        "There is a calmness to a life lived in gratitude, a quiet joy. –Ralph Blum",
+                        "Calm mind brings inner strength and self-confidence, so that’s very important for good health. –Dalai Lama",
+                        "Calmness is the cradle of power. —Josiah Gilbert Holland",
+                        "Set peace of mind as your highest goal, and organize your life around it. —Brian Tracy",
+                        "The greatest weapon against stress is our ability to choose one thought over another. —William James.",
+                        "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure. —Oprah Winfrey",
+                        "When you realize how perfect everything is you will tilt your head back and laugh at the sky. —Buddha",
+                        "We May Encounter Many Defeats But We Must Not Be Defeated. – Maya Angelou",
+                        "We Generate Fears While We Sit. We Overcome Them By Action. – Dr. Henry Link",
+                        "Do What You Can With All You Have, Wherever You Are. – Theodore Roosevelt",
+                        "You Are Never Too Old To Set Another Goal Or To Dream A New Dream. – C.S. Lewis",
+                        "Today’s Accomplishments Were Yesterday’s Impossibilities. – Robert H. Schuller",
+                        "There Are No Limits To What You Can Accomplish, Except The Limits You Place On Your Own Thinking. – Brian Tracy"
+
+                    };
+
+            //generate random value from array list
+            String randomValue = quoteArray[(int) Math.floor(Math.random() * quoteArray.length)];
+
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(advancedLevel.this);
             alertDialogueBuilder
-                    .setMessage("GAME OVER!")
+                    .setMessage(randomValue)
                     .setCancelable(false)
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override

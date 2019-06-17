@@ -10,8 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0d8f83b-75f9-470d-b27d-d822bb2b63ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/basicLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/basicLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="381" column="52" lean-forward="true" selection-start-line="381" selection-start-column="52" selection-end-line="381" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/basicLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="296" selection-start-line="296" selection-end-line="296" />
+            <state relative-caret-position="255">
+              <caret line="295" column="97" selection-start-line="294" selection-start-column="10" selection-end-line="295" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#9619#10016#0" expanded="true" />
@@ -50,15 +58,6 @@
                 <element signature="e#10065#10305#0" expanded="true" />
                 <element signature="e#10304#10305#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="389" column="71" selection-start-line="389" selection-start-column="71" selection-end-line="389" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -99,11 +98,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_advanced_two2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedTwo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/Home.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_helplines.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/basicLevel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java" />
       </list>
     </option>
   </component>
@@ -431,13 +430,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -489,10 +481,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="355" column="58" lean-forward="true" selection-start-line="355" selection-start-column="58" selection-end-line="355" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/basicLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="296" selection-start-line="296" selection-end-line="296" />
+        <state relative-caret-position="255">
+          <caret line="295" column="97" selection-start-line="294" selection-start-column="10" selection-end-line="295" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#9619#10016#0" expanded="true" />
@@ -503,10 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/intermediateLevel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/calmomatic/advancedLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="389" column="71" selection-start-line="389" selection-start-column="71" selection-end-line="389" selection-end-column="71" />
+        <state relative-caret-position="315">
+          <caret line="381" column="52" lean-forward="true" selection-start-line="381" selection-start-column="52" selection-end-line="381" selection-end-column="52" />
         </state>
       </provider>
     </entry>
