@@ -292,8 +292,9 @@ public class basicLevel extends AppCompatActivity {
                    "Stop focusing on how stressed you are and remember how blessed you are. ~ Anonymous."
                    };
 
+           //generate random value from array list
             String randomValue = quoteArray[(int) Math.floor(Math.random() * quoteArray.length)];
-          //  System.out.println(randomValue);
+
 
 
 
