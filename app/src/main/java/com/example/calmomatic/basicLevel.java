@@ -295,10 +295,6 @@ public class basicLevel extends AppCompatActivity {
            //generate random value from array list
             String randomValue = quoteArray[(int) Math.floor(Math.random() * quoteArray.length)];
 
-
-
-
-
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(basicLevel.this);
             alertDialogueBuilder
                     .setMessage(randomValue)
@@ -322,7 +318,6 @@ public class basicLevel extends AppCompatActivity {
             alertDialogue.show();
 
         }
-
 
     }
 

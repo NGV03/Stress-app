@@ -360,9 +360,45 @@ public class intermediateLevel extends AppCompatActivity {
                 iv_33.getVisibility() == View.INVISIBLE &&
                 iv_34.getVisibility() == View.INVISIBLE){
 
+            //display random quote after game finishes
+            final String[] quoteArray =
+                    {"Everyone thinks I’m overly dramatic when I’m stressed. When an octopus is stressed, it eats itself. Now that’s overdramatic. ~Unknown",
+                    "So you mean to tell me a stress ball isn’t for throwing at people who stress you out? ~Unknown",
+                    "When stress is at its highest, just know it can only go down. ~Unknown",
+                    "Every mountain top is within reach if you just keep climbing. ~ Barry Finlay ",
+                    "You can do anything but not everything. ~Unknown",
+                    "You can’t control the wind but you can adjust the sails. Dolly Parton",
+                    "This is not my gray hair, I just refer to them as my stress highlights. ~Unknown",
+                    "Its not stress that kills us, it is our reaction to it. – Hans Selye",
+                    "The greatest weapon against stress is our ability to choose one thought over another. – William James",
+                    "Tension is who you think you should be. Relaxation is who you are. – Chinese Proverb",
+                    "If you don’t like something change it; if you can’t change it, change the way you think about it. – Mary Engelbreit",
+                    "Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin. – Mother Teresa",
+                    "One moment of patience may ward off great disaster, one moment of impatience may ruin a whole life. – Chinese proverb",
+                    "One of the symptoms of an approaching nervous breakdown is the belief that one's work is terribly important.  - Bertrand Russell",
+                    "Do not anticipate trouble or worry about what may never happen. Keep in the sunlight. -Marcus Aurelius",
+                    "An hour of anxiety cannot change my circumstances, but a minute of prayer can alter everything.   -Al Bryant",
+                    "Stress is not what happens to us. It's our response TO what happens. And RESPONSE is something we can choose. -Maureen Killoran",
+                    "You must learn to let go. Release the stress. You were never in control anyway. -Steve Maraboli",
+                    "Everyday brings a choice: to practice stress or to practice peace. -Joan Borysenko",
+                    "Life is really simple, but we insist on making it complicated.  - Confucius",
+                    "When you feel the need to hurry, remember that everything in life is a CHOICE. -Jonathan Lockwood Huie",
+                    "You are the only one who can limit your greatness. – Unknown",
+                    "Make the most of yourself….for that is all there is of you. – Ralph Waldo Emerson",
+                    "It takes courage to grow up and become who you really are. – E.E. Cummings",
+                    "It is never too late to be what you might have been. – George Eliot",
+                    "Whatever you are, be a good one. – Abraham Lincoln"
+
+                    };
+
+
+            //generate random value from array list
+            String randomValue = quoteArray[(int) Math.floor(Math.random() * quoteArray.length)];
+
+
             AlertDialog.Builder alertDialogueBuilder = new AlertDialog.Builder(intermediateLevel.this);
             alertDialogueBuilder
-                    .setMessage("GAME OVER!")
+                    .setMessage(randomValue)
                     .setCancelable(false)
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
