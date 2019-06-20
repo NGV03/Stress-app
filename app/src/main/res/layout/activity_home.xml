@@ -27,7 +27,51 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
+
         </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardTop"
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:onClick="cardTop"
+                app:cardCornerRadius="6dp">
+
+                <LinearLayout
+                    android:layout_width="398dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="91dp"
+                        android:src="@drawable/game" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Play"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </GridLayout>
 
         <GridLayout
             android:columnCount="2"
@@ -38,16 +82,16 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
+                android:id="@+id/info"
+                android:onClick="cardInfo"
+                android:clickable="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="6dp"
-                android:layout_margin="12dp"
-                android:clickable="true"
-                android:id="@+id/card1"
-                android:onClick="cardOne">
+                android:layout_margin="12dp">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -57,14 +101,14 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/first"
+                        android:src="@drawable/info"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textSize="18sp"
-                        android:text="Beginner"
+                        android:text="Information"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -72,75 +116,6 @@
 
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="6dp"
-                android:layout_margin="12dp"
-                android:clickable="true"
-                android:id="@+id/card2"
-                android:onClick="cardTwo">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:src="@drawable/second"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp" />
-
-                    <TextView
-                        android:layout_marginTop="12dp"
-                        android:textSize="18sp"
-                        android:text="Intermediate"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/card3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:clickable="true"
-                android:onClick="cardThree"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:src="@drawable/third"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp" />
-
-                    <TextView
-                        android:layout_marginTop="12dp"
-                        android:textSize="18sp"
-                        android:text="Advanced"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="wrap_content"

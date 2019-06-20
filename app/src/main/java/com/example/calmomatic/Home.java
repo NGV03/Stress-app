@@ -13,33 +13,16 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
     }
-    public void cardOne(View view) {
-        if(view.getId() == R.id.card1)
+
+    public void cardInfo(View view) {
+        if(view.getId() == R.id.info)
         {
-            //When user clicks beginner card, launch new screen
-            Intent intent = new Intent(Home.this, basicLevel.class);
+            //When user clicks music card, launch new screen
+            Intent intent = new Intent(Home.this, Information.class);
             startActivity(intent);
         }
     }
 
-    public void cardTwo(View view) {
-        if(view.getId() == R.id.card2)
-        {
-            //When user clicks intermediate card, launch new screen
-            Intent intent = new Intent(Home.this, intermediateLevel.class);
-            startActivity(intent);
-        }
-    }
-
-
-    public void cardThree(View view) {
-        if(view.getId() == R.id.card3)
-        {
-            //When user clicks advanced card, launch new screen
-            Intent intent = new Intent(Home.this, advancedLevel.class);
-            startActivity(intent);
-        }
-    }
 
     public void cardFive(View view) {
         if(view.getId() == R.id.card5)
@@ -51,4 +34,12 @@ public class Home extends AppCompatActivity {
     }
 
 
+    public void cardTop(View view) {
+        if(view.getId() == R.id.cardTop)
+        {
+            //When user clicks music card, launch new screen
+            Intent intent = new Intent(Home.this, Game.class);
+            startActivity(intent);
+        }
+    }
 }
