@@ -40,4 +40,15 @@ public class Home extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void cardFive(View view) {
+        if(view.getId() == R.id.card5)
+        {
+            //When user clicks music card, launch new screen
+            Intent intent = new Intent(Home.this, Music.class);
+            startActivity(intent);
+        }
+    }
+
+
 }

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/idHarp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringHarpMusic"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <Button
+                android:id="@+id/idPiano"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringPianoMusic"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <Button
+                android:id="@+id/idPiano2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringPianoMusic2"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <Button
+                android:id="@+id/idSoftPiano"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringSoftPiano"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <Button
+                android:id="@+id/idRelaxingMusic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringRelaxingMusic"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <Button
+                android:id="@+id/idTuneMusic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="10sp"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="@string/stringTuneMusic"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

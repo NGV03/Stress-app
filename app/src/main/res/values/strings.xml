@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">calmOmatic</string>
+    <string name="stringHarpMusic">Harp Music</string>
+    <string name="stringPianoMusic">Piano Music</string>
+    <string name="stringPianoMusic2">Piano Music Two</string>
+    <string name="stringSoftPiano">Soft Piano</string>
+    <string name="stringRelaxingMusic">Relaxing Music</string>
+    <string name="stringTuneMusic">Tune Music</string>
 </resources>

@@ -63,7 +63,7 @@ public class intermediateLevel extends AppCompatActivity {
         //loading card images
         frontOfCardsResources();
 
-        //shuffle the images
+        //rand the images
         Collections.shuffle(Arrays.asList(cardsArray));
 
 
@@ -367,7 +367,7 @@ public class intermediateLevel extends AppCompatActivity {
                     "When stress is at its highest, just know it can only go down. ~Unknown",
                     "Every mountain top is within reach if you just keep climbing. ~ Barry Finlay ",
                     "You can do anything but not everything. ~Unknown",
-                    "You can’t control the wind but you can adjust the sails. Dolly Parton",
+                    "You can’t control the wind but you can adjust the sails. -Dolly Parton",
                     "This is not my gray hair, I just refer to them as my stress highlights. ~Unknown",
                     "Its not stress that kills us, it is our reaction to it. – Hans Selye",
                     "The greatest weapon against stress is our ability to choose one thought over another. – William James",

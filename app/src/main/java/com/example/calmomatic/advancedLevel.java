@@ -70,7 +70,7 @@ public class advancedLevel extends AppCompatActivity {
         //loading card images
         frontOfCardsResources();
 
-        //shuffle the images
+        //rand the images
         Collections.shuffle(Arrays.asList(cardsArray));
 
         iv_11.setOnClickListener(new View.OnClickListener() {
