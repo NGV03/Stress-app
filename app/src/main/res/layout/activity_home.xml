@@ -57,9 +57,9 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:layout_width="92dp"
-                        android:layout_height="91dp"
-                        android:src="@drawable/game" />
+                        android:src="@drawable/game"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
 
                     <TextView
                         android:layout_width="wrap_content"

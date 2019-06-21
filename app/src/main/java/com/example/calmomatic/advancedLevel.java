@@ -2,6 +2,7 @@ package com.example.calmomatic;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -30,6 +31,7 @@ public class advancedLevel extends AppCompatActivity {
     int cardNumber = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.flipcard);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advanced_two);
 
@@ -77,6 +79,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_11, theCard);
             }
         });
@@ -84,6 +87,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_12, theCard);
             }
         });
@@ -91,6 +95,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_13, theCard);
             }
         });
@@ -98,6 +103,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_14, theCard);
             }
         });
@@ -105,6 +111,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_21, theCard);
             }
         });
@@ -112,6 +119,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_22, theCard);
             }
         });
@@ -119,6 +127,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_23, theCard);
             }
         });
@@ -126,6 +135,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_24, theCard);
             }
         });
@@ -133,6 +143,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_31, theCard);
             }
         });
@@ -140,6 +151,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_32, theCard);
             }
         });
@@ -147,6 +159,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_33, theCard);
             }
         });
@@ -154,6 +167,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_34, theCard);
             }
         });
@@ -161,6 +175,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_41, theCard);
             }
         });
@@ -168,6 +183,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_42, theCard);
             }
         });
@@ -175,6 +191,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_43, theCard);
             }
         });
@@ -182,6 +199,7 @@ public class advancedLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_44, theCard);
             }
         });
@@ -286,54 +304,70 @@ public class advancedLevel extends AppCompatActivity {
     }
 
     private void calculate() {
-
+        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.correct);
         if(firstCard == secondCard){
             if(clickedFirst == 0){
                 iv_11.setVisibility(View.INVISIBLE);
+                mp.start();
             }else if(clickedFirst == 1){
                 iv_12.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 2){
                 iv_13.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 3){
                 iv_14.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 4){
                 iv_21.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 5){
                 iv_22.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 6){
                 iv_23.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 7){
                 iv_24.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 8){
                 iv_31.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 9){
                 iv_32.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 10){
                 iv_33.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 11){
                 iv_34.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 12){
                 iv_41.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 13){
                 iv_42.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 14){
                 iv_43.setVisibility(View.INVISIBLE);
+                mp.start();
             }
             else if(clickedFirst == 15){
                 iv_44.setVisibility(View.INVISIBLE);
+                mp.start();
             }
 
 
@@ -403,6 +437,8 @@ public class advancedLevel extends AppCompatActivity {
             iv_42.setImageResource(R.drawable.back);
             iv_43.setImageResource(R.drawable.back);
             iv_44.setImageResource(R.drawable.back);
+            MediaPlayer mpp = MediaPlayer.create(getApplicationContext(), R.raw.wrong);
+            mpp.start();
 
 
         }

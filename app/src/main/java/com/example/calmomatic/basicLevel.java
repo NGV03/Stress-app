@@ -1,23 +1,20 @@
 package com.example.calmomatic;
 
-import android.app.Notification;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Handler;
-import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.Random;
 
 public class basicLevel extends AppCompatActivity {
+
     ImageView iv_11, iv_12, iv_13, iv_14,iv_21, iv_22, iv_23, iv_24;
 
     //array for images
@@ -32,6 +29,7 @@ public class basicLevel extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.flipcard);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic_level);
 
@@ -63,6 +61,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_11, theCard);
             }
         });
@@ -70,6 +69,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_12, theCard);
             }
         });
@@ -77,6 +77,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_13, theCard);
             }
         });
@@ -84,6 +85,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_14, theCard);
             }
         });
@@ -91,6 +93,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_21, theCard);
             }
         });
@@ -98,6 +101,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_22, theCard);
             }
         });
@@ -105,6 +109,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_23, theCard);
             }
         });
@@ -112,6 +117,7 @@ public class basicLevel extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int theCard = Integer.parseInt((String) v.getTag());
+                mp.start();
                 doStuff(iv_24, theCard);
             }
         });
@@ -185,28 +191,40 @@ public class basicLevel extends AppCompatActivity {
     }
 
     private void calculate() {
-        //if images are equal, remove them and add points
+        //if images are equal, remove them
+        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.correct);
         if (firstCard == secondCard) {
             if (clickedFirst == 0) {
                 iv_11.setVisibility(View.INVISIBLE);
+                mp.start();
+
             } else if (clickedFirst == 1) {
                 iv_12.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 2) {
                 iv_13.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 3) {
                 iv_14.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 4) {
                 iv_21.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 5) {
                 iv_22.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 6) {
                 iv_23.setVisibility(View.INVISIBLE);
+                mp.start();
             } else if (clickedFirst == 7) {
                 iv_24.setVisibility(View.INVISIBLE);
+                mp.start();
             }
 
             if(clickedSecond == 0){
                 iv_11.setVisibility(View.INVISIBLE);
+
+
             }else if(clickedSecond == 1){
                 iv_12.setVisibility(View.INVISIBLE);
             }
@@ -237,6 +255,8 @@ public class basicLevel extends AppCompatActivity {
             iv_22.setImageResource(R.drawable.back);
             iv_23.setImageResource(R.drawable.back);
             iv_24.setImageResource(R.drawable.back);
+            MediaPlayer mpp = MediaPlayer.create(getApplicationContext(), R.raw.wrong);
+            mpp.start();
         }
         iv_11.setEnabled(true);
         iv_12.setEnabled(true);
