@@ -42,4 +42,13 @@ public class Home extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void helpline(View view) {
+        if(view.getId() == R.id.helpline)
+        {
+            //When user clicks helpline card, launch new screen
+            Intent intent = new Intent(Home.this, helpline.class);
+            startActivity(intent);
+        }
+    }
 }
