@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
@@ -10,48 +8,69 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:gravity= "center_horizontal">
 
             <TextView
                 android:id="@+id/text1"
                 android:textSize="22sp"
-                android:textColor="#000000"
-                android:text="About The Game:"
+                android:textColor="@color/cardview_dark_background"
+                android:text="About The Game"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+               />
 
             <TextView
                 android:layout_alignBottom="@+id/text1"
+                android:textColor="@color/cardview_dark_background"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:textSize="18sp"
-                android:textColor="#000000"
-                android:text="This is a very simple game of flip and match the pictures. The Final level involving match of description to pictures to push you to play smarter. It will distract you from your current stressful mood and indulge you in a simple yet effective memory game. The game has 3 levels; \n
- 1. Basic\n  2. Intermediate \n  3. Advanced \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance to either exit the game or move on to the higher levels."
-                />
+                android:text="This is a very simple game of flip and match the pictures. The Final level involving match of description
+to pictures to push you to play smarter. It will distract you from your current stressful mood and indulge you in a
+ simple yet effective memory game. The game has 3 levels; \n  1. Basic \n  2. Intermediate \n  3. Advanced \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance
+to either exit the game or move on to the higher levels." />
 
         <TextView
             android:textSize="22sp"
-            android:textColor="#000000"
-            android:text="The Minds:"
+            android:textColor="@color/cardview_dark_background"
+            android:text="The Minds"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:gravity= "center_horizontal"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="20dp"
             android:textSize="18sp"
-            android:textColor="#000000"
-            android:text="A collection of ideas of team NMN(Neha Vekaria. Malia Mafi, Neha Bhudia) at Manukau Institute of Technology, this is a student project, developed with an aim of assisting in stress reduction for the wider audience. \nWe used Autism AI(available on Google Playstore) as an inspiration for calmOmatic. Addressing mental health is very important hence the development of calmOmatic, a great gaming experience coated with stress relief tips and quotes. We hope this is an enyoable experience for you all."
-            />
+            android:textColor="@color/cardview_dark_background"
+            android:text="A collection of ideas of team NMN (Neha Vekaria, Malia Mafi and Neha Bhudia) at Manukau Institute of
+Technology, this is a student project, developed with an aim of assisting in stress reduction for the wider audience.
+             "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="@string/autism"
+            android:autoLink="all"
+            android:linksClickable="true"/>
 
     </LinearLayout>
 </ScrollView>
