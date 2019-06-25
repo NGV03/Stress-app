@@ -37,7 +37,7 @@
                 android:textSize="18sp"
                 android:text="This is a very simple game of flip and match the pictures. The Final level involving match of description
 to pictures to push you to play smarter. It will distract you from your current stressful mood and indulge you in a
- simple yet effective memory game. The game has 3 levels; \n  1. Basic \n  2. Intermediate \n  3. Advanced \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance
+ simple yet effective memory game. The game has 3 levels; \n \n  1. Basic \n  2. Intermediate \n  3. Advanced \n \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance
 to either exit the game or move on to the higher levels." />
 
         <TextView
@@ -54,7 +54,7 @@ to either exit the game or move on to the higher levels." />
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="30dp"
             android:textSize="18sp"
             android:textColor="@color/cardview_dark_background"
             android:text="A collection of ideas of team NMN (Neha Vekaria, Malia Mafi and Neha Bhudia) at Manukau Institute of
