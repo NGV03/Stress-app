@@ -42,4 +42,12 @@ public class Home extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void helpLine(View view){
+        if(view.getId() == R.id.helpId)
+        {
+            Intent intent = new Intent(Home.this,Helpline.class);
+            startActivity(intent);
+        }
+    }
 }
