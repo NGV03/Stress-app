@@ -15,7 +15,7 @@ public class helpline extends AppCompatActivity {
     String[] infoArray = {
             "0800 543 354",
             "0800 111 757",
-            "0800 269 4389",
+            "0800 233 269",
             "0800 726 666",
 
     };
@@ -37,17 +37,6 @@ public class helpline extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listviewID);
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new OnItemClickListener() {
 
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(helpline.this, DetailActivity.class);
-                String message = nameArray[position];
-                Integer message2 = imageArray[position];
-                intent.putExtra("org", message);
-                intent.putExtra("org2", message2);
-                startActivity(intent);
-
-            }
-        });
     }
 }

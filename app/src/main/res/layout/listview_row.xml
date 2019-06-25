@@ -2,14 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
 
     <ImageView
         android:id="@+id/imageView1ID"
+        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:src="@drawable/lowdownr" />
+        android:src="@drawable/lowdownr"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,6 +38,7 @@
             android:text="TextView"
             android:textSize="18sp"
             android:layout_marginLeft="10dp"
+            android:autoLink="phone"
          />
     </LinearLayout>
 
