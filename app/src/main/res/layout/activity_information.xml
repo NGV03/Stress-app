@@ -35,8 +35,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textColor="@color/cardview_dark_background"
-                android:text="This is a very simple game of flip and match the pictures. The Final level involving match of description to pictures to push you to play smarter. It will distract you from your current stressful mood and indulge you in a simple yet effective memory game. The game has 3 levels; \n
- 1. Basic\n  2. Intermediate \n  3. Advanced \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance to either exit the game or move on to the higher levels."
+                android:text="This is a very simple game of flip and match the pictures. The Final level involving match of description to pictures to push you to play smarter. It will distract you from your current stressful mood and indulge you in a simple yet effective memory game. The game has 5 levels; each increasing in the difficulty as you move on;\n 1-match the flags\n 2-match the emoji\n 3-match the words to the image\n 4-match the dice\n 5-match the playcards   \nEach level adds more cards for you to remember and match, successful completion of the level presents you a wonderful quote/tip to motivate you to stop misusing your energy in stress and move on. \nAt the completion of each level you also get a chance to either exit the game or move on to the higher levels."
                 />
 
         <TextView
