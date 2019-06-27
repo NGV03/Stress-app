@@ -37,7 +37,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:src="@drawable/first"
+                android:src="@drawable/one"
                 android:layout_width="80dp"
                 android:layout_height="80dp" />
 
@@ -72,7 +72,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:src="@drawable/second"
+                android:src="@drawable/two"
                 android:layout_width="80dp"
                 android:layout_height="80dp" />
 
@@ -109,7 +109,7 @@
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/third" />
+                android:src="@drawable/three" />
 
             <TextView
                 android:layout_width="wrap_content"
