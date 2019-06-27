@@ -487,33 +487,34 @@ public class levelFour extends AppCompatActivity {
             //display random quote after game finishes
             final String[] quoteArray =
                     {
-                            "Don’t Let Yesterday Take Up Too Much Of Today. – Will Rogers",
-                            "You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character. – Unknown",
-                            "If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You. – Steve Jobs",
-                            "Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough. – Og Mandino",
-                            "Your mind will answer most questions if you learn to relax and wait for the answer. –William Burroughs",
-                            "Life isn’t as serious as the mind makes it out to be. –Eckhart Tolle",
-                            "Give your stress wings and let if fly away. –Terri Guillemets",
-                            "There is more to life than increasing its speed. –Mohandas Gandhi",
-                            "Sometimes the most productive thing you can do is relax. –Mark Black",
-                            "You don’t always need a plan.  Sometimes you just need to breathe, trust, let go and see what happens. –Mandy Hale",
-                            "Nothing can bring you peace but yourself. –Ralph Waldo Emerson",
-                            "Your calm mind is the ultimate weapon against your challenges.  So relax. –Bryant McGill",
-                            "Slow down and everything you are chasing will come around and catch you. –John De Paola",
-                            "The time to relax is when you don’t have time for it. –Sydney Harris",
-                            "There is a calmness to a life lived in gratitude, a quiet joy. –Ralph Blum",
-                            "Calm mind brings inner strength and self-confidence, so that’s very important for good health. –Dalai Lama",
-                            "Calmness is the cradle of power. —Josiah Gilbert Holland",
-                            "Set peace of mind as your highest goal, and organize your life around it. —Brian Tracy",
-                            "The greatest weapon against stress is our ability to choose one thought over another. —William James.",
-                            "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure. —Oprah Winfrey",
-                            "When you realize how perfect everything is you will tilt your head back and laugh at the sky. —Buddha",
-                            "We May Encounter Many Defeats But We Must Not Be Defeated. – Maya Angelou",
-                            "We Generate Fears While We Sit. We Overcome Them By Action. – Dr. Henry Link",
-                            "Do What You Can With All You Have, Wherever You Are. – Theodore Roosevelt",
-                            "You Are Never Too Old To Set Another Goal Or To Dream A New Dream. – C.S. Lewis",
-                            "Today’s Accomplishments Were Yesterday’s Impossibilities. – Robert H. Schuller",
-                            "There Are No Limits To What You Can Accomplish, Except The Limits You Place On Your Own Thinking. – Brian Tracy"
+                            "Give your stress wings and let it fly away ~ Terri Guillemets",
+                            "It’s not the load that breaks you down, it’s the way you carry it ~ Lou Holtz",
+                            "You are braver than you believe, stronger than you seem and smarter than you think! ~ Christopher Robin",
+                            "Don’t stress the could haves, if it should have, i would have. ~ Unknown",
+                            "For fast-acting relief, try slowing down. ~ Lily Tomlin",
+                            "The comeback is always stronger than the setback ~ Dr. Jill Murray",
+                            "Grow through what you go through ~ Tyrese Gibson",
+                            "Was it a bad day? Or was it a bad five minutes that you milked all day? ~Unknown",
+                            "A smooth sea never made a skilled sailor ~ Franklin D. Roosevelt",
+                            "We may encounter many defeats but we must not be defeated. ~ Maya Angelou",
+                            "Do something today that your future self will thank you for. ~Sean Patrick Flanery",
+                            "Say No to the demands of the world. Say Yes to the longing of your own heart. ~Johnathan Lockwood Huie ",
+                            "Tension is who you think you should be. Relaxation is who you are. ~Chinese Proverbs",
+                            "Why feel blue when there’s so many other colors you can feel. ~ Karen Salmansohn",
+                            "Stressed spelled backwards is desserts. ~Loretta Laroche",
+                            "Difficult roads often lead to beautiful destinations. The best is yet to come. ~ Zig Ziglar",
+                            "Just when the caterpillar thought the world was ending, he turned into a butterfly. ~ Proverbs",
+                            "The greatest weapon against stress is our ability to choose one thought over another. ~ William James",
+                            "Rule number one is, don’t sweat the small stuff. Rule number two is, it’s all small stuff. ~Robert Elliot",
+                            "If stress burned calories, I’d be a supermodel. - Unknown",
+                            "Dear Stress, let’s break up. ~Dr. Christina Hebbert",
+                            "Be with those who bring out the best in you, not the stress in you. ~Unknown",
+                            "Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming. ~Thich Nhat Hanh",
+                            "Keep walking through the storm. Your rainbow is waiting on the other side. ~Heather Stillufsen ",
+                            "Do not rent out your brain to stress and fear, they do not pay. ~Rajesh Walecha",
+                            "The struggle you’re in today is developing the strength you need for tomorrow. ~Robert Tew",
+                            "Good things take time ~John Wooden",
+                            "Stop focusing on how stressed you are and remember how blessed you are. ~ Anonymous."
 
                     };
 
@@ -527,7 +528,7 @@ public class levelFour extends AppCompatActivity {
                     .setPositiveButton("    NEW", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent intent = new Intent(getApplicationContext(), levelFour.class);
+                            Intent intent = new Intent(getApplicationContext(), levelFive.class);
                             startActivity(intent);
                             finish();
                         }
@@ -558,7 +559,7 @@ public class levelFour extends AppCompatActivity {
         image202 = R.drawable.dice2a;
         image203 = R.drawable.dice3a;
         image204 = R.drawable.dice4a;
-        image205 = R.drawable.dicd5a;
+        image205 = R.drawable.dice5a;
         image206 = R.drawable.dice6a;
         image207 = R.drawable.dicd7a;
         image208 = R.drawable.dice8a;
