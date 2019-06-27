@@ -57,7 +57,7 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:src="@drawable/game"
+                        android:src="@drawable/puzzle"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 

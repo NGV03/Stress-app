@@ -37,7 +37,20 @@ public class Game extends AppCompatActivity {
             }
         }
 
+    public void cardFour (View view){
+        if (view.getId() == R.id.card4) {
+            //When user clicks level four card, launch new screen
+            Intent intent = new Intent(Game.this, levelFour.class);
+            startActivity(intent);
+        }
+    }
 
-
+    public void cardFive (View view){
+        if (view.getId() == R.id.card5) {
+            //When user clicks level five card, launch new screen
+            Intent intent = new Intent(Game.this, levelFive.class);
+            startActivity(intent);
+        }
+    }
 
 }

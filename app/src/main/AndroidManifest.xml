@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".levelFive"></activity>
+        <activity android:name=".levelFour" />
         <activity android:name=".helpline" />
         <activity android:name=".Information" />
         <activity android:name=".Game" />
